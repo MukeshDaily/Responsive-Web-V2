@@ -1,0 +1,38 @@
+.mblSimpleDialogButton {
+  margin: 7px 0 0;
+  width: 262px;
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.95;
+}
+.mblSimpleDialogButton2l {
+  float: left;
+  width: 127px;
+  margin: 7px 0 0;
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.95;
+}
+.mblSimpleDialogButton2r {
+  float: right;
+  width: 127px;
+  margin: 7px 0 0;
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.95;
+}
+.mblSimpleDialog .mblProgressIndicator {
+  position: relative;
+  margin: 14px 0 7px;
+  top: 0;
+}
+#dlg_message, #s2_message{	
+	width: 90%;	
+}
+#ourTitle, #s2Title{
+	width: 90%;
+}
+#ourMessage, #feedback2{
+	width: 90%;
+	text-align:justify;
+}

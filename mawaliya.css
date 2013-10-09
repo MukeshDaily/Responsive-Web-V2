@@ -1,0 +1,28 @@
+/* Image map styles  for page 2 */
+.s2page {width:100%; max-width:800px; margin:0 auto;}
+.imageMapt {width:80%; position:relative; margin-bottom:2px;}
+.imageMapt img {display:block; width:100%; border-radius:20px;}
+.imageMapt .hotspotst {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden;}
+.imageMapt a {display:block; position:absolute; background:#000; z-index:100; opacity:0.2; filter: alpha(opacity=20); border:1px solid transparent; border-radius:100px;}
+.imageMapt a.p1 {left:36%; top:1%; width:30%; height:30%;}
+.imageMapt a.p2 {left:0%; top:25%; width:30%; height:30%;}
+.imageMapt a.p3 {left:36%; top:39%; width:30%; height:30%;}
+.imageMapt a.p4 {left:70%; top:28%; width:30%; height:30%;}
+.imageMapt a.p5 {left:13%; top:69%; width:30%; height:30%;}
+.imageMapt a.p6 {left:59%; top:69%; width:30%; height:30%;}
+.imageMapt:hover .hotspotst {visibility:visible;}
+.imageMapt .hotspotst div:hover a {background:#fff; z-index:100; opacity:0.3; filter: alpha(opacity=30); border:1px solid #000;}
+
+/* Image map styles for page 3 */
+.s3page {width:100%; max-width:800px; margin:0 auto;}
+.imageMap {width:100%; position:relative; margin-bottom:2px;}
+.imageMap img {display:block; width:100%; border-radius:20px;}
+.imageMap .hotspots {width:100%; height:100%; position:absolute; left:0; top:0; visibility:hidden;}
+.imageMap a {display:block; position:absolute; background:#000; z-index:100; opacity:0.2; filter: alpha(opacity=20); border:1px solid transparent; border-radius:10px;}
+.imageMap a.p1 {left:3%; top:10.4%; width:31%; height:28%;}
+.imageMap a.p2 {left:67%; top:10.8%; width:31%; height:28%;}
+.imageMap a.p3 {left:35%; top:39%; width:31%; height:28%;}
+.imageMap a.p4 {left:3.5%; top:66.5%; width:31%; height:28%;}
+.imageMap a.p5 {left:66.5%; top:67.5%; width:31%; height:28%;}
+.imageMap:hover .hotspots {visibility:visible;}
+.imageMap .hotspots div:hover a {background:#fff; z-index:100; opacity:0.3; filter: alpha(opacity=30); border:1px solid #000;}
